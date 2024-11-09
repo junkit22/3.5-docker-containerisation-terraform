@@ -1,3 +1,4 @@
+# Create docker image containing app and deploy to private ECR using Terraform
 - Create a new github repository and Clone the github repository locally.
 - Under your local git folder create terraform" folder to store all TF files (backend.tf, compute.tf, provider.tf and variable.tf) use to setup private ECR repository.
 - Locate to terraform folder and run below command one by one. After "terraform apply" success, your private ECR repository will create and please check on AWS console online.
